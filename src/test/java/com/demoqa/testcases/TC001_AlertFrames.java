@@ -19,7 +19,7 @@ public class TC001_AlertFrames extends BrowserFactory{
 	AlertPages lertpages = new AlertPages(driver);
 
 	@Test
-	public void TC001_AlertFramesTest() {
+	public void TC001_AlertFramesTest() throws InterruptedException {
 		lertpages.setBrowserFactory();
 		lertpages.naviagatetoalertBrowserWindow();
 		lertpages.Browser_NewWindow_Message();

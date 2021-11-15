@@ -30,6 +30,11 @@ public class AlertPages extends  BrowserFactory{
 	
 	  
 
+	public AlertPages(WebDriver driver) {
+		 this.driver=driver;
+	}
+
+
 	@Test()
 	public void naviagatetoalertBrowserWindow() {
 		  
